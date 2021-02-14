@@ -1,0 +1,55 @@
+h1{
+    color:chocolate;
+    font-size: 200%;
+    text-decoration: underline;
+}
+body{
+    background-color:#FFF4F6
+}
+.intro{
+    display:flex;
+    justify-content: space-evenly;
+    border-style: groove;
+    margin:70px;
+    background-color: antiquewhite;
+    border-color: coral;
+    font-style: italic;
+}
+.line{
+ border-top: 2px dashed green;   
+}
+.game{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    background-color:rgb(238, 213, 131);
+    margin:70px;
+}
+.game1{
+    flex-basis: 25%;
+    margin:80px;
+    border-style: ridge;
+    border-color: black;
+    padding: 30px;
+    top: 50%;
+    bottom: 50%;
+    border-width: 15px medium 15px medium;
+}
+.game1 p{
+    color: black;
+    position: absolute;
+    opacity: 0;
+   
+}
+.game1:hover p{
+    opacity: 1;
+}
+.game1:hover img{
+    opacity: 0.5;
+}
+.heading h1{
+    color: antiquewhite;
+    background-color: crimson;
+    text-align: center;
+}
